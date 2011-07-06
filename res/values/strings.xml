@@ -79,6 +79,7 @@
 
     <!-- Search source label for the Google search source. -->
     <string name="google_search_label">Google</string>
+    <string name="wikipedia_search_label">Wikipedia</string>
 
     <!-- The search activity label. -->
     <string name="google_app_label">Google Search</string>
@@ -87,12 +88,14 @@
     <!-- This translation MUST MATCH the string "search_hint" which is found in
          Home/res/values/strings.xml -->
     <string name="google_search_hint">Google Search</string>
+    <string name="wikipedia_search_hint">Wikipedia Search</string>
 
     <!-- Search settings description for the Google search source. -->
     <string name="google_search_description">Google search suggestions</string>
 
     <!-- Settings category title for 'Google search settings' settings activity -->
     <string name="google_search_settings">Google search</string>
+    <string name="wikipedia_search_settings">Wikipedia search</string>
 
     <!-- Title and summaries for 'show web suggestions' check box setting -->
     <string name="google_show_web_suggestions">Show web suggestions</string>

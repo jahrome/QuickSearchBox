@@ -139,6 +139,17 @@
                 android:resource="@xml/google_searchable" />
         </activity>
 
+        <activity android:name=".wikipedia.WikipediaSearch"
+                android:label="@string/wikipedia_search_label"
+                android:icon="@drawable/wikipedia_icon"
+                android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/wikipedia_searchable" />
+        </activity>
+
         <activity android:name=".google.GoogleSettings"
                 android:label="@string/google_search_settings"
                 android:excludeFromRecents="true">
